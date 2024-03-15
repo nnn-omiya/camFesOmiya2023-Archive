@@ -1,0 +1,168 @@
+
+
+.supplement{
+  background-color: var(--back-g-color);
+  position: fixed;
+  padding-top: var(--supplement-padding-top);
+  padding-left: var(--supplement-padding-left);
+  top: var(--supplement-top);
+  bottom: var(--supplement-bottom);
+  left: var(--supplement-left);
+  right: var(--supplement-right);
+  height: var(--supplement-height);
+  width: var(--supplement-width);
+  font-size: var(--supplement-font-size);
+  border: var(--supplement-border-type) var(--supplement-border-size) var(--supplement-border-color);
+  box-sizing: border-box;
+  pointer-events: none;
+  --back-g-color: rgba(0, 0, 0, 0.85);
+  --supplement-top: calc(-0.95 * var(--supplement-height));
+  --supplement-bottom: 0;
+  --supplement-left: calc(var(--supplement-width) / -2);
+  --supplement-right: 0;
+  --supplement-height: 300px;
+  --supplement-width: 300px;
+  --supplement-padding-top: 1%;
+  --supplement-padding-left: 1%;
+  --supplement-font-size: 1em;
+  --supplement-border-type: solid;
+  --supplement-border-color: rgb(247, 114, 114);
+  --supplement-border-size: 1px;
+  border-radius: 50px;
+}
+
+
+#tttest p{
+  display: none;
+}
+
+.MapProjectTitle{
+  font-size: 1.2em;
+  text-decoration: underline;
+  text-decoration-color: var(--title-deco-color);
+  text-align: center;
+  --title-deco-color: rgb(247, 114, 114);
+}
+
+.MapProjectSubTitle{
+  font-size: 1.1em;
+  text-decoration: underline;
+  text-decoration-color: rgb(184, 184, 184, 0.75);
+}
+
+.MapProjectSubHeading{
+  font-size: 1.05em;
+  text-decoration: underline;
+  text-decoration-color: rgb(203, 207, 116);
+  padding-left: 1%;
+}
+
+.tmpFood{
+  font-size: 0.9em;
+  padding-left: 1%;
+}
+
+
+#tttest area#JapaneseGames0:hover ~ #JapaneseGames1,
+#tttest area#stage0:hover ~ #stage1,
+#tttest area#food0:hover ~ #food1,
+#tttest area#smashBros0:hover ~ #smashBros1,
+#tttest area#scrunchie0:hover ~ #scrunchie1,
+#tttest area#oracle0:hover ~ #oracle1,
+#tttest area#about0:hover ~ #about1,
+#tttest area#ONED0:hover ~ #ONED1,
+#tttest area#DJ0:hover ~ #DJ1 {
+  display: block;
+}
+
+#JapaneseGames1{
+  --back-g-color: rgba(105, 54, 54, 0.85);
+  --supplement-height: 300px;
+  --supplement-width: 300px;
+  --supplement-border-color: rgb(247, 114, 114);
+}
+
+
+#stage1{
+  --back-g-color: rgba(54, 68, 105, 0.85);
+  --supplement-height: 200px;
+  --supplement-width: 300px;
+  --supplement-border-color: rgb(114, 158, 247);
+}
+#stage1 .MapProjectTitle{
+  --title-deco-color: rgb(114, 158, 247);
+}
+
+#food1{
+  --back-g-color: rgba(54, 105, 67, 0.85);
+  --supplement-top: calc(-0.75 * var(--supplement-height));
+  --supplement-height: 365px;
+  --supplement-width: 300px;
+  --supplement-border-color: rgb(114, 247, 158);
+}
+#food1 .MapProjectTitle{
+  --title-deco-color: rgb(114, 247, 158);
+}
+
+#smashBros1{
+  --back-g-color: rgba(105, 54, 66, 0.85);
+  --supplement-height: 250px;
+  --supplement-width: 300px;
+  --supplement-border-color: rgb(247, 114, 145);
+}
+#smashBros1 .MapProjectTitle{
+  --title-deco-color: rgb(247, 114, 145);
+}
+
+#scrunchie1{
+  --back-g-color: rgba(102, 54, 105, 0.85);
+  --supplement-height: 250px;
+  --supplement-width: 300px;
+  --supplement-border-color: rgb(223, 114, 247);
+}
+#scrunchie1 .MapProjectTitle{
+  --title-deco-color: rgb(223, 114, 247);
+}
+
+#oracle1{
+  --back-g-color: rgba(105, 54, 54, 0.85);
+  --supplement-height: 280px;
+  --supplement-width: 300px;
+  --supplement-border-color: rgb(247, 114, 114);
+}
+#oracle1 .MapProjectTitle{
+  --title-deco-color: rgb(247, 114, 114);
+}
+
+#about1{
+  --back-g-color: rgba(54, 105, 61, 0.85);
+  --supplement-height: 150px;
+  --supplement-width: 300px;
+  --supplement-border-color: rgb(114, 247, 154);
+}
+#about1 .MapProjectTitle{
+  --title-deco-color: rgb(114, 247, 154);
+}
+
+#ONED1{
+  --back-g-color: rgba(54, 99, 105, 0.85);
+  --supplement-bottom: 0;
+  --supplement-height: 250px;
+  --supplement-width: 300px;
+  /* --supplement-font-size: 0.85em; */
+  --supplement-border-color: rgb(114, 238, 247);
+}
+#ONED1 .MapProjectTitle{
+  --title-deco-color: rgb(114, 238, 247);
+}
+
+#DJ1{
+  --back-g-color: rgba(102, 54, 105, 0.85);
+  --supplement-bottom: 0;
+  --supplement-height: 250px;
+  --supplement-width: 300px;
+  --supplement-border-color: rgb(234, 114, 247);
+}
+#DJ1 .MapProjectTitle{
+  --title-deco-color: rgb(234, 114, 247);
+}

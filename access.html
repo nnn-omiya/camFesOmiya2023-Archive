@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>大宮キャンフェス2023</title>
+		<link rel="icon" href="public/img/camfes2023.ico">
+		<link rel="stylesheet" href="css/initilize.css">
+		<link rel="stylesheet" href="css/base.css">
+		<link rel="stylesheet" href="css/access.css">
+		<link rel="stylesheet" href="css/map.css">
+		<!-- 画像が重いので事前読み込み -->
+		<link rel="preload" href="public/sample/random_Kyoto_1.jpg" as="image">
+		<link rel="preload" href="public/sample/random_Kyoto_2.jpg" as="image">
+		<link rel="preload" href="public/sample/random_Kyoto_3.jpg" as="image">
+		<link rel="preload" href="public/sample/random_Kyoto_4.jpg" as="image">
+		<link rel="preload" href="public/sample/random_Kyoto_5.jpg" as="image">
+		<link rel="preload" href="public/sample/random_Kyoto_6.jpg" as="image">
+		<link rel="preload" href="public/sample/random_Kyoto_7.jpg" as="image">
+		<link rel="preload" href="public/sample/random_Kyoto_8.jpg" as="image">
+	</head>
+	<body>
+		<div id="background">
+			<div></div>
+			<div></div>
+		</div>
+		<header>
+			<input type='checkbox' id='nav-menu'>
+			<label for='nav-menu' id="nav-style">
+				<span></span>
+				<span></span>
+				<span></span>
+			</label>
+			<nav id='nav-list'>
+			</nav>
+		</header>
+		<ul id="sideIndex"></ul>
+		<article>
+			<section id="PC">
+        <h2 id="PCtitle" >会場マップ</h2>
+				<div class="campusMap" id="tttest">
+					<img src="./public/img/access/Map.png" alt="PC用のキャンパスマップ" usemap="#ImageMapPC" class="washi" id="mapPC">
+					<map name="ImageMapPC" id="ImageMapPC">
+						<area shape="rect" coords="61,70,187,305" href="./projectsDetail/JapaneseGames.html" alt="童心に帰って遊ぼう！〜昔あそび×大宮キャンパス〜" id="JapaneseGames0" >
+						<area shape="rect" coords="187,71,359,266" href="./timetable.html#stage" alt="ステージ" id="stage0"/>
+						<area shape="rect" coords="360,72,510,273" href="./food.html" alt="フード" id="food0"/>
+						<area shape="rect" coords="367,271,508,375" href="./projectsDetail/smashBros.html" alt="スマブラ大会in大宮" id="smashBros0"/>
+						<!-- <area shape="circle" coords="353,28,21" href="./" alt="お茶" />
+						<area shape="circle" coords="396,27,22" href="./" alt="きのこ・たけのこ" />
+						<area shape="circle" coords="396,73,23" href="./" alt="おしるこ" />
+						<area shape="circle" coords="395,117,23" href="./" alt="たこ焼き" />
+						<area shape="circle" coords="395,160,24" href="./" alt="カフェ" /> -->
+						<area shape="rect" coords="366,374,507,477" href="./projectsDetail/scrunchie.html" alt="かんざし" id="scrunchie0"/>
+						<area shape="rect" coords="315,273,366,412" href="./projectsDetail/oracle.html" alt="☆ドキドキ♡キャンフェスおみくじ☆" id="oracle0"/>
+						<!-- <area shape="rect" coords="305,410,365,489" href="./" alt="フォトブース" /> -->
+						<area shape="rect" coords="190,337,255,451" href="./about.html" alt="受付" id="about0"/>
+						<area shape="rect" coords="542,70,769,340" href="./projectsDetail/ONED.html" alt="ONED" id="ONED0"/>
+  					<area shape="rect" coords="543,341,653,474" href="./projectsDetail/DJ.html" alt="CLUB Rhelok" id="DJ0"/>
+
+						<!-- 日本の遊び -->
+						<p class="supplement" id="JapaneseGames1" >
+							<span class="MapProjectTitle">童心に帰って遊ぼう！</span>
+							<span class="MapProjectTitle EndSentence">〜昔あそび×大宮キャンパス〜</span>
+
+							<span class="MapProjectSubTitle">場所詳細</span>
+								<span>・右 - 福笑い</span>
+								<span class="EndSentence">・左 - カルタ&羽付き</span>
+
+							<span class="MapProjectSubTitle">企画概要（一部抜粋）</span>
+								<span>・...キャンパスメンター7人の</span>
+								<span class="EndSentence">　福笑いを開催します。</span>
+
+							<span class="testclick" >（詳細はマップをクリック）</span>
+						</p>
+						<!-- ステージ -->
+						<p class="supplement" id="stage1" >
+							<span class="MapProjectTitle EndSentence">ステージ</span>
+
+							<span class="MapProjectSubTitle">開催時間</span>
+							<span>・13:00 〜 13:20 OP</span>
+							<span>・13:20 〜 16:10 公演</span>
+							<span class="EndSentence">・16:15 〜 16:30 ED</span>
+
+							<span class="testclick" >（詳細はマップをクリック）</span>
+						</p>
+						<!-- フード -->
+						<p class="supplement" id="food1" >
+							<span class="MapProjectTitle EndSentence">フード</span>
+
+							<span class="MapProjectSubTitle">メニュー</span>
+							<span class="MapProjectSubHeading">300円</span>
+								<span class="EndSentence tmpFood">・もなか + 抹茶羊羹 + コーヒー</span>
+
+							<span class="MapProjectSubHeading">200円</span>
+								<span class="EndSentence tmpFood">・抹茶羊羹</span>
+
+								<span class="MapProjectSubHeading">100円</span>
+								<span class="tmpFood">
+									<span>・アイスカフェラテ</span>
+									<span>・水出しコーヒー</span>
+									<span>・もなか </span>
+									<span>・きのこの山</span>
+									<span>・たけのこの里</span>
+								</span>
+									
+								<span class="testclick" >（詳細はマップをクリック）</span>
+						</p>
+						<!-- スマブラ -->
+						<p class="supplement" id="smashBros1" >
+							<span class="MapProjectTitle EndSentence">スマブラ大会in大宮</span>
+
+							<span class="MapProjectSubTitle">企画概要（一部抜粋）</span>
+								<span>・...観戦席、大会後のフリー対戦</span>
+								<span class="EndSentence">　などもあります！！</span>
+
+							<span class="MapProjectSubTitle">開催時間</span>
+								<span class="EndSentence">・13:30 〜 15:50 (最終受付  15:20)</span>
+
+							<span class="testclick" >（詳細はマップをクリック）</span>
+						</p>
+						<!-- かんざし -->
+						<p class="supplement" id="scrunchie1" >
+							<span class="MapProjectTitle EndSentence">ちりめんものづくり体験！</span>
+
+							<span class="MapProjectSubTitle">企画概要（一部抜粋）</span>
+								<span>・...シュシュと手まりストラップの</span>
+								<span class="EndSentence">　無料体験ワークショップです</span>
+
+							<span class="MapProjectSubTitle">開催時間</span>
+								<span class="EndSentence">・13:30 〜 15:50 (最終受付  15:20)</span>
+
+							<span class="testclick" >（詳細はマップをクリック）</span>
+						</p>
+						<!-- おみくじ -->
+						<p class="supplement" id="oracle1" >
+							<span class="MapProjectTitle">☆ドキドキ♡</span>
+							<span class="MapProjectTitle EndSentence">♡キャンフェスおみくじ☆</span>
+
+							<span class="MapProjectSubTitle">企画概要（一部抜粋）</span>
+								<span>・...実行委員の手作りおみくじで</span>
+								<span class="EndSentence">　運試し☆</span>
+
+							<span class="MapProjectSubTitle">開催時間</span>
+								<span class="EndSentence">・13:30 〜 なくなり次第終了</span>
+
+							<span class="testclick" >（詳細はマップをクリック）</span>
+						</p>
+						<!-- 受付 -->
+						<p class="supplement" id="about1" >
+							<span class="MapProjectTitle EndSentence">受付</span>
+
+							<span class="MapProjectSubTitle">Q & Aはこちらをクリック！！ </span>
+								<span class="EndSentence"></span>
+
+							<span class="testclick" >（詳細はマップをクリック）</span>
+						</p>
+						<!-- ONED -->
+						<p class="supplement" id="ONED1" >
+							<span class="MapProjectTitle EndSentence">ONED</span>
+
+							<span class="MapProjectSubTitle">企画概要（一部抜粋）</span>
+								<span>・...プレゼンターが様々なテーマで</span>
+								<span class="EndSentence">　プレゼンをします</span>
+
+							<span class="MapProjectSubTitle">開催時間</span>
+								<span class="EndSentence">・13:00〜15:15</span>
+
+
+							<span class="testclick" >（詳細はマップをクリック）</span>
+						</p>
+						<!-- DJ -->
+						<p class="supplement" id="DJ1" >
+							<span class="MapProjectTitle EndSentence">CLUB Rhelok</span>
+
+							<span class="MapProjectSubTitle">企画概要（一部抜粋）</span>
+								<span>・...また、カクテルなどの</span>
+								<span class="EndSentence">　販売もします</span>
+
+							<span class="MapProjectSubTitle">開催時間</span>
+								<span class="EndSentence">・13:30〜16:00</span>
+
+							<span class="testclick" >（詳細はマップをクリック）</span>
+						</p>
+					</map>
+				</div>
+      </section>
+			<section id="location">
+				<h2>アクセス</h2>
+				<div id="mamap">
+					<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1ZO1srfJuAc-1zwI7dvHIcQ11Vjrurp0&ehbc=2E312F&noprof=1" width="100%" height="100%" id="maps"></iframe>
+				</div>
+			</section>
+
+      <section id="map8F">
+        <h2 id="map8Ftitle" >会場マップ</h2>
+				<div class="campusMap">
+					<img class="washi" id="map8" usemap="#ImageMap8" alt="スマホ用の8階マップ" >
+					<map name="ImageMap8">
+						<area shape="rect" coords="-6,-5,115,213" href="./projectsDetail/JapaneseGames.html" alt="日本の遊び" />
+						<area shape="rect" coords="115,-4,272,177" href="./timetable.html#stage" alt="ステージ" />
+						<area shape="rect" coords="273,-8,415,184" href="./food.html" alt="お食事処" />
+						<area shape="rect" coords="278,184,406,275" href="./projectsDetail/smashBros.html" alt="スマブラ" />
+						<area shape="rect" coords="276,273,421,367" href="./projectsDetail/scrunchie.html" alt="かんざし" />
+						<area shape="rect" coords="206,182,275,303" href="./projectsDetail/oracle.html" alt="おみくじ" />
+						<!-- <area shape="rect" coords="214,307,277,383" href="./" alt="フォトブース" /> -->
+						<area shape="rect" coords="114,239,179,344" href="./about.html" alt="受付" />
+					</map>
+				</div>
+      </section>
+
+			<section id="map6F">
+        <h2 id="map6Ftitle" >会場マップ</h2>
+				<div class="campusMap">
+					<img class="washi" id="map6" usemap="#ImageMap6" alt="スマホ用の6階マップ" >
+					<map name="ImageMap6">
+						<area shape="rect" coords="1,0,209,242" href="./projectsDetail/ONED.html" alt="ONED" />
+						<area shape="rect" coords="0,244,98,365" href="./projectsDetail/DJ.html" alt="DJ" />
+					</map>
+				</div>
+      </section>
+		</article>
+		<footer></footer>
+	</body>
+	<script src="./js/access.js"></script>
+	<!-- <script src="../js/index.js"></script> -->
+	<!-- 後日実装 -->
+	<script src="js/nav.js"></script>
+</html>

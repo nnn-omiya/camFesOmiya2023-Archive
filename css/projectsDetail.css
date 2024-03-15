@@ -1,0 +1,378 @@
+.smashBros h3,
+.oracle h3,
+.scrunchie h3,
+.DJ h3,
+.ONED h3 {
+    font-size: 25px;
+    line-height: 40px;
+    text-decoration: underline;
+    text-decoration-color: aqua;
+    padding: 10px;
+}
+
+/*pcとスマホで見出しの表示を変更*/
+.pc {
+    display: block !important;
+}
+
+.sp {
+    display: none !important;
+}
+
+@media screen and (max-width: 600px) {
+    .pc {
+        display: none !important;
+    }
+
+    .sp {
+        display: block !important;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .smashBros h3,
+    .oracle h3,
+    .scrunchie h3,
+    .DJ h3,
+    .ONED h3 {
+        font-size: 20px;
+        padding: 5px;
+        text-align: center;
+    }
+}
+
+.smashBros p,
+.oracle p,
+.scrunchie p,
+.DJ p,
+.ONED p {
+    font-size: 30px;
+    padding: 3px;
+    margin-right: 20px;
+}
+
+@media screen and (max-width: 600px) {
+
+    .smashBros p,
+    .oracle p,
+    .scrunchie p,
+    .DJ p,
+    .ONED p {
+        font-size: 15px;
+        margin: 0 20px;
+    }
+}
+
+.smashBrosImg {
+    float: left;
+    height: 65%;
+    margin: 15px 60px 0 70px;
+}
+
+.oracleImg {
+    float: left;
+    height: 60%;
+    margin: 20px 60px 0 60px;
+}
+
+.scrunchieImg {
+    float: left;
+    height: 65%;
+    margin: 15px 60px 0 70px;
+}
+
+.DJImg {
+    float: left;
+    height: 50%;
+    margin: 35px 60px 0 60px;
+}
+
+.ONEDImg {
+    float: left;
+    height: 50%;
+    margin: 90px 60px 0 40px;
+}
+
+@media screen and (max-width: 600px) {
+
+    .smashBrosImg,
+    .scrunchieImg {
+        float: none;
+        text-align: center;
+        height: auto;
+        width: 70%;
+        margin: auto;
+        margin-top: -25px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .oracleImg,
+    .DJImg,
+    .ONEDImg {
+        float: none;
+        text-align: center;
+        height: auto;
+        width: 80%;
+        margin: auto;
+        margin-top: -20px;
+    }
+}
+
+.tab_content_description h3 {
+    font-size: 28px;
+    text-decoration: underline;
+    text-decoration-color: aqua;
+    padding: 10px;
+    text-align: center;
+    margin-top: -10px;
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width: 600px) {
+    .tab_content_description h3 {
+        padding: 0;
+        font-size: 20px;
+        margin-top: -10px;
+    }
+}
+
+.tab_content_description h4 {
+    font-size: 20px;
+    line-height: 30px;
+    text-decoration: underline;
+    text-decoration-color: antiquewhite;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+@media screen and (max-width: 600px) {
+    .tab_content_description h4 {
+        font-size: 15px;
+        line-height: normal;
+        padding: 0;
+        margin-top: 0;
+        text-align: center;
+    }
+}
+
+.tab_content_description p {
+    font-size: 25px;
+}
+
+@media screen and (max-width: 600px) {
+    .tab_content_description p {
+        font-size: 15px;
+    }
+}
+
+.fukuwaraiImg {
+    float: left;
+    width: 25%;
+    margin: 0 40px 0 0;
+    padding: 0 10px 30px 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .fukuwaraiImg {
+        float: none;
+        width: 40%;
+        text-align: center;
+        margin: auto;
+        padding: 0;
+    }
+}
+
+.karutaImg {
+    float: left;
+    width: 40%;
+    margin: 0 10px 0 20px;
+    padding: 0 10px 30px 20px;
+}
+
+.hanetukiImg {
+    float: left;
+    width: 30%;
+    margin: 0 10px 0 10px;
+    padding: 0 10px 30px 20px;
+}
+
+@media screen and (max-width: 600px) {
+
+    .fukuwaraiImg,
+    .karutaImg,
+    .hanetukiImg {
+        float: none;
+        text-align: center;
+        margin: 0 auto;
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .karutaImg,
+    .hanetukiImg {
+        width: 80%;
+    }
+}
+
+/*タブ切り替え全体のスタイル*/
+.tabs {
+    width: 90%;
+    margin: 0 auto;
+    display: block grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 50px 1fr;
+}
+
+@media screen and (max-width: 600px) {
+    .tabs {
+        margin-top: -35px;
+    }
+}
+
+/*タブのスタイル*/
+.tab_item {
+    display: block;
+    background-color: #19302a;
+    line-height: 50px;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 20px 20px 0 0;
+}
+
+.tab_item:hover {
+    background-color: #e0e0e0;
+}
+
+.tab_content {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 0 0 1rem 1rem;
+    border: 1px solid #e0e0e0;
+    box-sizing: border-box;
+    grid-area: 2 / 1 / -1 / -1;
+}
+
+@media screen and (max-width: 600px) {
+    .tab_content {
+        width: 90%;
+    }
+}
+
+/*ラジオボタンを全て消す*/
+input[name="tab_item"] {
+    display: none;
+}
+
+/*タブ切り替えの中身のスタイル*/
+.tab_content {
+    display: none;
+    padding: 20px 20px 0;
+    clear: both;
+    overflow: hidden;
+}
+
+/*選択されているタブのコンテンツのみを表示*/
+#all:checked~#all_content,
+#programming:checked~#programming_content,
+#design:checked~#design_content {
+    display: block;
+}
+
+/* 表示中のタブを明るくする */
+input[name=tab_item]:checked+label {
+    background-color: #DDEDE9;
+}
+
+/*ONEDのタイムテーブル*/
+.guidance {
+    text-align: center;
+    margin-top: 30px;
+}
+
+th,
+td {
+    text-align: center;
+    border: solid 1px;
+    height: 80px;
+}
+
+th {
+    color: #e0e0e0;
+    background-color: #19302a;
+}
+
+td {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.time,
+.presenter {
+    width: 150px;
+}
+
+.content {
+    width: 400px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 550px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 600px) {
+
+    th,
+    td {
+        height: 60px;
+    }
+
+    .content {
+        width: 190px;
+    }
+
+    .time {
+        width: 60px;
+    }
+
+    .presenter {
+        width: 90px;
+    }
+
+    table {
+        width: 340px;
+    }
+}
+
+/*DJのタイムテーブル*/
+.DJ_timetable {
+    display: flex;
+    text-align: center;
+}
+
+.DJ_file {
+    width: 35%;
+    margin: 40px auto;
+}
+
+.DJsp {
+    display: none;
+    margin-top: 30%;
+}
+
+/*pcとスマホでページ数変更*/
+@media screen and (max-width: 600px) {
+    .DJpc {
+        display: none;
+    }
+
+    .DJsp {
+        display: block;
+    }
+}

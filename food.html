@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>大宮キャンフェス2023</title>
+		<link rel="icon" href="public/img/camfes2023.ico">
+		<link rel="stylesheet" href="css/initilize.css">
+		<link rel="stylesheet" href="css/base.css">
+        <link rel="stylesheet" href="css/food.css">
+		<!-- 画像が重いので事前読み込み -->
+		<link rel="preload" href="public/sample/random_Kyoto_1.jpg" as="image">
+		<link rel="preload" href="public/sample/random_Kyoto_2.jpg" as="image">
+		<link rel="preload" href="public/sample/random_Kyoto_3.jpg" as="image">
+		<link rel="preload" href="public/sample/random_Kyoto_4.jpg" as="image">
+		<link rel="preload" href="public/sample/random_Kyoto_5.jpg" as="image">
+		<link rel="preload" href="public/sample/random_Kyoto_6.jpg" as="image">
+		<link rel="preload" href="public/sample/random_Kyoto_7.jpg" as="image">
+		<link rel="preload" href="public/sample/random_Kyoto_8.jpg" as="image">
+	</head>
+	<body>
+		<div id="background">
+			<div></div>
+			<div></div>
+		</div>
+		<header>
+			<input type='checkbox' id='nav-menu'>
+			<label for='nav-menu' id="nav-style">
+				<span></span>
+				<span></span>
+				<span></span>
+			</label>
+			<nav id='nav-list'>
+			</nav>
+		</header>
+		<ul id="sideIndex"></ul>
+		<article>
+			<section id="food">
+				<h2 >フード</h2>
+				<p class="navi_under">下にアレルギー表示あります。→</p>
+				<div class="tab-container">
+					<div class="tab" onclick="openTab(1)">フード一覧</div>
+					<div class="tab" onclick="openTab(2)">やみたこ</div>
+					<div class="tab" onclick="openTab(3)">大宮茶会事件</div>
+					<div class="tab" onclick="openTab(4)">きのたけ平和ショップ</div>
+					<div class="tab" onclick="openTab(5)">きつねのほこら</div>
+				</div>
+				
+				<div class="tab-content active" id="tab1">
+					<p class="tako_title main_tab">フード一覧</p>
+					<div class="main">
+						<div class="main_on">
+							<!--モーダルウィンドウテスト用-->
+							<figure>
+								<figcaption>やみたこ</figcaption>
+								<a href="#openModal1">
+									<img src="public/img/food/tako.jpg" alt="画像" class="main_img">
+								</a>
+							</figure>
+							<figure>
+								<figcaption>大宮茶会事件</figcaption>
+								<a href="#openModal2">
+									<img src="public/img/food/tea1.jpg" alt="" class="main_img">
+								</a>
+							</figure>
+						</div>
+						<div class="main_on">
+							<figure>
+								<figcaption>きのこたけのこ平和ショップ</figcaption>
+								<a href="#openModal3">
+									<img src="public/img/food/takenoko.jpg" alt="" class="main_img">
+								</a>
+							</figure>
+							<figure>
+								<figcaption>きつねのほこら</figcaption>
+								<a href="#openModal4">
+									<img src="public/img/food/caffe.png" alt="" class="main_img">
+								</a>
+							</figure>
+						</div>
+					</div>
+				</div>
+				<div class="tab-content" id="tab2">
+					<p class="tako_title">やみたこ（たこ焼き）</p>
+					<div class="tako_div">
+						<img src="public/img/food/tako.jpg" alt="" class="tako_img">
+						<div>
+							<p class="tako_text"><span>企画概要</span><br>闇鍋要素を入れたたこ焼きを販売します。普通のたこやきもあります。</p>
+							<p class="tako_text"><span>開催場所・時間</span><br>8F　フードエリア・OPから10分後〜ED10分前まで
+								なくなり次第終了です。
+								</p>
+						</div>
+					</div>
+				</div>
+				<div class="tab-content" id="tab3">
+					<p class="tako_title">大宮茶会事件</p>
+					<div class="tea_all">
+						<div class="tea_img_div">
+							<img src="public/img/food/tea1.jpg" alt="" class="main_img">
+							<img src="public/img/food/tea2.jpg" alt="" class="main_img">
+						</div>
+						<div>
+							<p class="tea_text"><span>企画概要</span><br>茶道体験（予約制）&紅茶注ぎ選手権を開催します！</p>
+							<p class="tea_text"><span>開催場所・時間</span><br>8F　フードエリア・OPから10分後〜ED10分前までなくなり次第終了です。</p>
+						</div>
+					</div>
+
+				</div>
+				<div class="tab-content" id="tab4">
+					<p class="tako_title">きのこたけのこ平和ショップ</p>
+					<div class="takenoko_all"> 
+						<div>
+							<p class="takenoko_text"><span>企画概要</span><br>我々はきのこたけのこ戦争の終結を望んでいます<br>
+								この度は両者の関係を安定化させるために、<br>きのこの山とたけのこの里を共に販売することにしました
+								ぜひ足を運んでみてください<br>平和万歳！！！！！</p>
+							<p class="takenoko_text"><span>開催場所・時間</span>8F　フードエリア・OPから10分後〜ED10分前まで
+								なくなり次第終了です。</p>
+							<p class="takenoko_text">
+								<span>金額</span>100円
+							</p>
+						</div>
+						<img src="public/img/food/takenoko.jpg" alt="">
+					</div>
+				</div>
+				<div class="tab-content" id="tab5">
+					<p class="tako_title">きつねのほこら</p>
+					<div class="fox_all">
+						<img src="public/img/food/caffe.png" alt="" class="caffe_img">
+						<div>
+							<p class="fox_text"><span>企画概要</span>抹茶羊羹、モナカ、カフェオレを販売する京都風カフェです！</p>
+							<p class="fox_text"><span>開催場所・時間</span>8F　フードエリア・OPから10分後〜ED10分前まで
+								なくなり次第終了です。
+							</p>
+						</div>
+					</div>
+				</div>
+				<!--メインページのモーダルウィンドウ-->
+				<div id="openModal1" class="modal">
+					<div class="modal-content">
+						<p><span>やみたこ（たこ焼き）</span></p>
+						<img src="public/img/food/tako.jpg" alt="" class="modal_img">
+						<a href="#close" title="閉じる" class="close_a">閉じる</a>
+					</div>
+				</div>
+				<div id="openModal2" class="modal">
+					<div class="modal-content">
+						<p><span>大宮茶会事件</span></p>
+						<img src="public/img/food/tea1.jpg" alt="" class="modal_img">
+						<a href="#close" title="閉じる" class="close_a">閉じる</a>
+					</div>
+				</div>
+				<div id="openModal3" class="modal">
+					<div class="modal-content">
+						<p><span>きのこたけのこ平和ショップ</span></p>
+						<img src="public/img/food/takenoko.jpg" alt="" class="modal_img">
+						<a href="#close" title="閉じる" class="close_a">閉じる</a>
+					</div>
+				</div>
+				<div id="openModal4" class="modal">
+					<div class="modal-content">
+						<p><span>きつねのほこら</span></p>
+						<img src="public/img/food/caffe.png" alt="" class="modal_img">
+						<a href="#close" title="閉じる" class="close_a">閉じる</a>
+					</div>
+				</div>
+
+			
+				<script src="js/food.js"></script>
+			</section>
+			<section id="food_about">
+				<h2>フード詳細</h2>
+				<div id="Allergie">
+					<p class="about_title">たこ焼き（通常）</p>
+					<p class="about_text">※たこ焼き、やみたこ共に100円</p>
+					<p class="about_text">アレルゲン</p>
+					<div class="about_div">
+						<ul>
+							<li>卵</li>
+							<li>小麦</li>
+							<li>乳</li>
+						</ul>
+						<ul>
+							<li>大豆</li>
+							<li>りんご</li>
+							<li>マヨネーズ</li>
+						</ul>
+					</div>
+					<p class="about_title">たこ焼き（やみたこ）</p>
+					<p class="about_text">アレルゲン</p>
+					<div class="about_div">
+						<ul>
+							<li>卵</li>
+							<li>小麦</li>
+							<li>乳</li>
+							<li>大豆</li>
+						</ul>
+						<ul>
+							<li>牛肉</li>
+							<li>豚肉</li>
+							<li>鶏肉</li>
+							<li>ゼラチン</li>
+							<li>チョコレート</li>
+						</ul>
+					</div>
+					<p class="about_title">きのこたけのこ平和ショップ</p>
+					<div class="about_div">
+						<ul>
+							<li>きのこの山</li>
+							<li>100円</li>
+						</ul>
+						<ul>
+							<li>たけのこの里</li>
+							<li>100円</li>
+						</ul>
+					</div>
+					<p class="about_title">きつねのほこら</p>
+					<div class="about_div_under">
+						<div class="fuck">
+							<p class="fox_caffe_p">もなか + 抹茶羊羹 + コーヒー</p>
+							<p class="fox_caffe_p">もなか（大豆）</p>
+							<p class="fox_caffe_p">抹茶羊羹（大豆）</p>
+							<p class="fox_caffe_p">アイスカフェラテ（牛乳）</p>
+							<p class="fox_caffe_p">水出しコーヒー（なし）</p>
+						</div>
+						<div class="fuck">
+							<p class="fox_caffe_p">300円</p>
+							<p class="fox_caffe_p">100円</p>
+							<p class="fox_caffe_p">200円</p>
+							<p class="fox_caffe_p">100円</p>
+							<p class="fox_caffe_p">100円</p>
+						</div>
+					</div>
+				</div>
+			</section>
+		</article>
+		<footer></footer>
+	</body>
+	<!-- <script src="../js/index.js"></script> -->
+	<!-- 後日実装 -->
+	<script src="js/nav.js"></script>
+</html>

@@ -1,0 +1,106 @@
+img{
+  user-select: none;
+}
+
+#mamap{
+  margin: 0 auto;
+  height: 70vh;
+  width: 75vw;
+}
+
+.campusMap{
+  display: flex;
+}
+
+#PC > h2{
+  margin-bottom: 50px;
+}
+
+
+#mapPC{
+  display: flex;
+  margin: 0 auto;
+  width: calc(var(--width) * var(--img-size));
+  height: calc(var(--height) * var(--img-size));
+  --img-size: 65px;
+  --width: 16;
+  /* width = 1040 */
+  --height: 9;
+  /* height = 585 */
+}
+
+#map8{
+  display: flex;
+  margin: 0 auto;
+  width: calc(var(--width) * var(--img-size));
+  height: calc(var(--height) * var(--img-size));
+
+}
+
+#map6{
+  display: flex;
+  margin: 0 auto;
+  width: calc(var(--width) * var(--img-size));
+  height: calc(var(--height) * var(--img-size));
+}
+
+#map6F{
+  display: none;
+  --no-side-index: 1;
+}
+
+#map8F{
+  display: none;
+  --no-side-index: 1;
+}
+
+@media screen and (max-width: 600px) {
+  /*  */
+  #map8 {
+    --img-size: 38px;
+    --width: 11;
+    /* width = 418 */
+    --height: 12;
+    /* height = 456 */
+    content: url('../public/img/access/8F.jpg');
+  }
+  #map6 {
+    --img-size:38px;
+    --width: 11;
+    /* width = 418 */
+    --height: 12;
+    /* height = 456 */
+    content: url('../public/img/access/6F.jpg');
+  }
+  /* セクションのId */
+  #map6F{
+    display: block;
+    --no-side-index: 0;
+  }
+  #map8F{
+    display: block;
+    --no-side-index: 0;
+  }
+  /* タイトルのafter */
+  #map8Ftitle::after{
+    content: '8F';
+  }
+  #map6Ftitle::after{
+    content: '6F';
+  }
+  #PC{
+    display: none;
+    --no-side-index: 1;
+  }
+}
+
+
+.testclick{
+  display: inline;
+  color: rgb(200, 200, 200);
+  font-size: 0.75em;
+}
+
+.EndSentence{
+  padding-bottom: 0.75em;
+}

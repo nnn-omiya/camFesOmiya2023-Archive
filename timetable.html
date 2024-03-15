@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>大宮キャンフェス2023</title>
+		<link rel="icon" href="public/img/camfes2023.ico">
+		<link rel="stylesheet" href="css/initilize.css">
+		<link rel="stylesheet" href="css/base.css">
+		<link rel="stylesheet" href="css/timeTable.css">
+		<!-- 画像が重いので事前読み込み -->
+		<link rel="preload" href="public/sample/random_Kyoto_1.jpg" as="image">
+		<link rel="preload" href="public/sample/random_Kyoto_2.jpg" as="image">
+		<link rel="preload" href="public/sample/random_Kyoto_3.jpg" as="image">
+		<link rel="preload" href="public/sample/random_Kyoto_4.jpg" as="image">
+		<link rel="preload" href="public/sample/random_Kyoto_5.jpg" as="image">
+		<link rel="preload" href="public/sample/random_Kyoto_6.jpg" as="image">
+		<link rel="preload" href="public/sample/random_Kyoto_7.jpg" as="image">
+		<link rel="preload" href="public/sample/random_Kyoto_8.jpg" as="image">
+	</head>
+	<body>
+		<div id="background">
+			<div></div>
+			<div></div>
+		</div>
+		<header>
+			<input type='checkbox' id='nav-menu'>
+			<label for='nav-menu' id="nav-style">
+				<span></span>
+				<span></span>
+				<span></span>
+			</label>
+			<nav id='nav-list'>
+			</nav>
+		</header>
+		<ul id="sideIndex"></ul>
+		<article>
+			<section id="timeTable">
+				<h2>タイムテーブル</h2>
+				<div class="dropdown">
+					<button class="drop-btn">
+						ステージ
+					</button>
+					<div class="drop-wrap">
+						<ul class="drop-menu">
+							<li data-link="stage">ステージ</li>
+							<li data-link="ONED">ONED</li>
+							<li data-link="DJ">DJ</li>
+							<li data-link="smashBros">スマブラ大会</li>
+						</ul>
+					</div>
+				</div>
+				<div id="tableWrap">
+				</div>
+			</section>
+		</article>
+		<footer></footer>
+	</body>
+	<script src="js/nav.js"></script>
+	<script src="js/timetable.js"></script>
+</html>

@@ -1,0 +1,522 @@
+{
+	"stage": [
+		{
+			"id": 1,
+			"title": "OP",
+			"performer": "実行委員",
+			"type": 1,
+			"date": {
+				"month": 10,
+				"day": 28
+			},
+			"time": {
+				"hour": 13,
+				"minutes": 0
+			},
+			"timeRequired": 20,
+			"duration": 0,
+			"childData": {
+				"noiseLevel": 2
+			}
+		},{
+			"id": 2,
+			"title": "歌ってみた",
+			"performer": "あや",
+			"type": 1,
+			"date": {
+				"month": 10,
+				"day": 28
+			},
+			"time": {
+				"hour": 13,
+				"minutes": 20
+			},
+			"timeRequired": 7,
+			"duration": 0,
+			"childData": {
+				"noiseLevel": 3
+			}
+		},{
+			"id": 3,
+			"title": "歌ってみた",
+			"performer": "こがね",
+			"type": 1,
+			"date": {
+				"month": 10,
+				"day": 28
+			},
+			"time": {
+				"hour": 13,
+				"minutes": 27
+			},
+			"timeRequired": 10,
+			"duration": 0,
+			"childData": {
+				"noiseLevel": 3
+			}
+		},{
+			"id": 4,
+			"title": "歌ってみた",
+			"performer": "海帆",
+			"type": 1,
+			"date": {
+				"month": 10,
+				"day": 28
+			},
+			"time": {
+				"hour": 13,
+				"minutes": 45
+			},
+			"timeRequired": 10,
+			"duration": 8,
+			"childData": {
+				"noiseLevel": 3
+			}
+		},{
+			"id": 5,
+			"title": "歌ってみた",
+			"performer": "Neon",
+			"type": 1,
+			"date": {
+				"month": 10,
+				"day": 28
+			},
+			"time": {
+				"hour": 13,
+				"minutes": 55
+			},
+			"timeRequired": 10,
+			"duration": 0,
+			"childData": {
+				"noiseLevel": 3
+			}
+		},{
+			"id": 6,
+			"title": "歌ってみた",
+			"performer": "りんがるす",
+			"type": 1,
+			"date": {
+				"month": 10,
+				"day": 28
+			},
+			"time": {
+				"hour": 14,
+				"minutes": 5
+			},
+			"timeRequired": 10,
+			"duration": 0,
+			"childData": {
+				"noiseLevel": 3
+			}
+		},{
+			"id": 7,
+			"title": "踊ってみた",
+			"performer": "あまと",
+			"type": 1,
+			"date": {
+				"month": 10,
+				"day": 28
+			},
+			"time": {
+				"hour": 14,
+				"minutes": 15
+			},
+			"timeRequired": 10,
+			"duration": 0,
+			"childData": {
+				"noiseLevel": 2
+			}
+		},{
+			"id": 8,
+			"title": "漫才",
+			"performer": "ナユタ",
+			"type": 1,
+			"date": {
+				"month": 10,
+				"day": 28
+			},
+			"time": {
+				"hour": 14,
+				"minutes": 35
+			},
+			"timeRequired": 10,
+			"duration": 10,
+			"childData": {
+				"noiseLevel": 2
+			}
+		},{
+			"id": 9,
+			"title": "踊ってみた",
+			"performer": "せつ、ひー、わさび",
+			"type": 1,
+			"date": {
+				"month": 10,
+				"day": 28
+			},
+			"time": {
+				"hour": 14,
+				"minutes": 46
+			},
+			"timeRequired": 10,
+			"duration": 1,
+			"childData": {
+				"noiseLevel": 2
+			}
+		},{
+			"id": 10,
+			"title": "踊ってみた",
+			"performer": "京都着ぐるみ紅蓮隊",
+			"type": 1,
+			"date": {
+				"month": 10,
+				"day": 28
+			},
+			"time": {
+				"hour": 14,
+				"minutes": 57
+			},
+			"timeRequired": 10,
+			"duration": 1,
+			"childData": {
+				"noiseLevel": 2
+			}
+		},{
+			"id": 11,
+			"title": "歌ってみた",
+			"performer": "ナユタ・エイクサン",
+			"type": 1,
+			"date": {
+				"month": 10,
+				"day": 28
+			},
+			"time": {
+				"hour": 15,
+				"minutes": 8
+			},
+			"timeRequired": 10,
+			"duration": 1,
+			"childData": {
+				"noiseLevel": 3
+			}
+		},{
+			"id": 12,
+			"title": "演奏してみた",
+			"performer": "jamn",
+			"type": 1,
+			"date": {
+				"month": 10,
+				"day": 28
+			},
+			"time": {
+				"hour": 15,
+				"minutes": 25
+			},
+			"timeRequired": 20,
+			"duration": 7,
+			"childData": {
+				"noiseLevel": 4
+			}
+		},{
+			"id": 13,
+			"title": "弾き語り",
+			"performer": "わみほ",
+			"type": 1,
+			"date": {
+				"month": 10,
+				"day": 28
+			},
+			"time": {
+				"hour": 15,
+				"minutes": 55
+			},
+			"timeRequired": 15,
+			"duration": 10,
+			"childData": {
+				"noiseLevel": 3
+			}
+		},{
+			"id": 14,
+			"title": "ステージED",
+			"performer": "実行委員",
+			"type": 1,
+			"date": {
+				"month": 10,
+				"day": 28
+			},
+			"time": {
+				"hour": 16,
+				"minutes": 15
+			},
+			"timeRequired": 15,
+			"duration": 5,
+			"childData": {
+				"noiseLevel": 2
+			}
+		}
+	],
+	"ONED": [
+		{
+			"id": 1,
+			"title": "ポジティブに生きよう的なこと",
+			"performer": "田子",
+			"type": 1,
+			"date": {
+				"month": 10,
+				"day": 28
+			},
+			"time": {
+				"hour": 13,
+				"minutes": 30
+			},
+			"timeRequired": 10,
+			"duration": 0,
+			"childData": {}
+		},{
+			"id": 2,
+			"title": "世界名作劇場",
+			"performer": "宍戸",
+			"type": 1,
+			"date": {
+				"month": 10,
+				"day": 28
+			},
+			"time": {
+				"hour": 13,
+				"minutes": 40
+			},
+			"timeRequired": 10,
+			"duration": 0,
+			"childData": {}
+		},{
+			"id": 3,
+			"title": "仏教知識と死生観",
+			"performer": "冨士",
+			"type": 1,
+			"date": {
+				"month": 10,
+				"day": 28
+			},
+			"time": {
+				"hour": 13,
+				"minutes": 50
+			},
+			"timeRequired": 10,
+			"duration": 0,
+			"childData": {}
+		},{
+			"id": 4,
+			"title": "俺が語るバイク",
+			"performer": "草間",
+			"type": 1,
+			"date": {
+				"month": 10,
+				"day": 28
+			},
+			"time": {
+				"hour": 14,
+				"minutes": 0
+			},
+			"timeRequired": 10,
+			"duration": 0,
+			"childData": {}
+		},{
+			"id": 5,
+			"title": "好きなゲームをひたすらに推す",
+			"performer": "エイク",
+			"type": 1,
+			"date": {
+				"month": 10,
+				"day": 28
+			},
+			"time": {
+				"hour": 14,
+				"minutes": 10
+			},
+			"timeRequired": 10,
+			"duration": 0,
+			"childData": {}
+		},{
+			"id": 6,
+			"title": "受験は余裕を持って行動しよう！",
+			"performer": "ナユタ",
+			"type": 1,
+			"date": {
+				"month": 10,
+				"day": 28
+			},
+			"time": {
+				"hour": 14,
+				"minutes": 20
+			},
+			"timeRequired": 10,
+			"duration": 0,
+			"childData": {}
+		}
+	],
+	"DJ": [
+		{
+			"id": 1,
+			"title": "Oka",
+			"performer": "",
+			"type": 1,
+			"date": {
+				"month": 10,
+				"day": 28
+			},
+			"time": {
+				"hour": 13,
+				"minutes": 30
+			},
+			"timeRequired": 35,
+			"duration": 0,
+			"childData": {}
+		},{
+			"id": 2,
+			"title": "Harada",
+			"performer": "",
+			"type": 1,
+			"date": {
+				"month": 10,
+				"day": 28
+			},
+			"time": {
+				"hour": 14,
+				"minutes": 5
+			},
+			"timeRequired": 15,
+			"duration": 0,
+			"childData": {}
+		},{
+			"id": 3,
+			"title": "EbiB2BOka",
+			"performer": "",
+			"type": 1,
+			"date": {
+				"month": 10,
+				"day": 28
+			},
+			"time": {
+				"hour": 14,
+				"minutes": 20
+			},
+			"timeRequired": 20,
+			"duration": 0,
+			"childData": {}
+		},{
+			"id": 4,
+			"title": "Harada",
+			"performer": "",
+			"type": 1,
+			"date": {
+				"month": 10,
+				"day": 28
+			},
+			"time": {
+				"hour": 14,
+				"minutes": 40
+			},
+			"timeRequired": 35,
+			"duration": 0,
+			"childData": {}
+		},{
+			"id": 5,
+			"title": "Ebi",
+			"performer": "",
+			"type": 1,
+			"date": {
+				"month": 10,
+				"day": 28
+			},
+			"time": {
+				"hour": 15,
+				"minutes": 10
+			},
+			"timeRequired": 30,
+			"duration": 0,
+			"childData": {}
+		}
+	],
+	"smashBros": [
+		{
+			"id": 1,
+			"title": "大会準備・ルール説明",
+			"performer": "",
+			"type": 1,
+			"date": {
+				"month": 10,
+				"day": 28
+			},
+			"time": {
+				"hour": 13,
+				"minutes": 30
+			},
+			"timeRequired": 5,
+			"duration": 0,
+			"childData": {}
+		},{
+			"id": 2,
+			"title": "予選開始",
+			"performer": "",
+			"type": 1,
+			"date": {
+				"month": 10,
+				"day": 28
+			},
+			"time": {
+				"hour": 13,
+				"minutes": 35
+			},
+			"timeRequired": 80,
+			"duration": 0,
+			"childData": {}
+		},{
+			"id": 3,
+			"title": "準決勝",
+			"performer": "",
+			"type": 1,
+			"date": {
+				"month": 10,
+				"day": 28
+			},
+			"time": {
+				"hour": 14,
+				"minutes": 55
+			},
+			"timeRequired": 25,
+			"duration": 0,
+			"childData": {}
+		},{
+			"id": 4,
+			"title": "決勝戦",
+			"performer": "",
+			"type": 1,
+			"date": {
+				"month": 10,
+				"day": 28
+			},
+			"time": {
+				"hour": 15,
+				"minutes": 20
+			},
+			"timeRequired": 30,
+			"duration": 0,
+			"childData": {}
+		},{
+			"id": 5,
+			"title": "表彰",
+			"performer": "",
+			"type": 1,
+			"date": {
+				"month": 10,
+				"day": 28
+			},
+			"time": {
+				"hour": 15,
+				"minutes": 50
+			},
+			"timeRequired": 5,
+			"duration": 0,
+			"childData": {}
+		}
+	]
+}

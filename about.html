@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>大宮キャンフェス2023</title>
+		<link rel="icon" href="public/img/camfes2023.ico">
+		<link rel="stylesheet" href="css/initilize.css">
+		<link rel="stylesheet" href="css/base.css">
+		<!-- 画像が重いので事前読み込み -->
+		<link rel="preload" href="public/sample/random_Kyoto_1.jpg" as="image">
+		<link rel="preload" href="public/sample/random_Kyoto_2.jpg" as="image">
+		<link rel="preload" href="public/sample/random_Kyoto_3.jpg" as="image">
+		<link rel="preload" href="public/sample/random_Kyoto_4.jpg" as="image">
+		<link rel="preload" href="public/sample/random_Kyoto_5.jpg" as="image">
+		<link rel="preload" href="public/sample/random_Kyoto_6.jpg" as="image">
+		<link rel="preload" href="public/sample/random_Kyoto_7.jpg" as="image">
+		<link rel="preload" href="public/sample/random_Kyoto_8.jpg" as="image">
+	</head>
+	<body>
+		<div id="background">
+			<div></div>
+			<div></div>
+		</div>
+		<header>
+			<input type='checkbox' id='nav-menu'>
+			<label for='nav-menu' id="nav-style">
+				<span></span>
+				<span></span>
+				<span></span>
+			</label>
+			<nav id='nav-list'>
+			</nav>
+		</header>
+		<ul id="sideIndex"></ul>
+		<article>
+			<section id="aboutTop" class="card">
+				<h2>キャンフェスとは？</h2>
+				<img src="public/sample/random_Kyoto_1.jpg" alt="サンプル">
+				<aside>
+					<h4>大宮キャンパスフェスティバル</h4>
+					<p>10/28日に行われるキャンパスフェスティバル<br>キャンパスごとに開催される通学コースと通学プログラミングコース生が参加するフェスティバル。<br>
+						実行委員の選出、出し物の企画・運営は全て生徒自身が行います。</p>
+					<h4>京都</h4>
+					<p>今年は投票の結果京都ですることが決定しました<br>1000年以上の歴史を持つ日本有数の観光地</p>
+				</aside>
+			</section>
+		</article>
+		<footer></footer>
+	</body>
+	<script src="js/nav.js"></script>
+	<script src="js/option/card.js"></script>
+</html>

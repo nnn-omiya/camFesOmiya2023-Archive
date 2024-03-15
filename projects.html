@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>大宮キャンフェス2023</title>
+		<link rel="icon" href="public/img/camfes2023.ico">
+		<link rel="stylesheet" href="css/initilize.css">
+		<link rel="stylesheet" href="css/base.css">
+		<link rel="stylesheet" href="css/projects.css">
+		<!-- 画像が重いので事前読み込み -->
+		<link rel="preload" href="public/sample/random_Kyoto_1.jpg" as="image">
+		<link rel="preload" href="public/sample/random_Kyoto_2.jpg" as="image">
+		<link rel="preload" href="public/sample/random_Kyoto_3.jpg" as="image">
+		<link rel="preload" href="public/sample/random_Kyoto_4.jpg" as="image">
+		<link rel="preload" href="public/sample/random_Kyoto_5.jpg" as="image">
+		<link rel="preload" href="public/sample/random_Kyoto_6.jpg" as="image">
+		<link rel="preload" href="public/sample/random_Kyoto_7.jpg" as="image">
+		<link rel="preload" href="public/sample/random_Kyoto_8.jpg" as="image">
+	</head>
+	<body>
+		<div id="background">
+			<div></div>
+			<div></div>
+		</div>
+		<header>
+			<input type='checkbox' id='nav-menu'>
+			<label for='nav-menu' id="nav-style">
+				<span></span>
+				<span></span>
+				<span></span>
+			</label>
+			<nav id='nav-list'>
+			</nav>
+		</header>
+		<ul id="sideIndex"></ul>
+		<article>
+			<section id="projects">
+				<h2>企画一覧</h2>
+				<div class="container">
+					<div class="card smashBros">
+						<a href="projectsDetail/smashBros.html">スマブラ大会in大宮</a>
+						<img class="img" src="public/projects.img/smashBros.png" alt="スマブラ">
+					</div>
+					<div class="card oracle">
+						<a href="projectsDetail/oracle.html">☆ドキドキ♡キャンフェスおみくじ☆</a>
+						<img class="img" src="public/projects.img/oracle.png" alt="おみくじ">
+					</div>
+					<div class="card JapaneseGames">
+						<a href="projectsDetail/JapaneseGames.html">童心に帰って遊ぼう！<br>〜昔あそび×大宮キャンパス〜</a>
+						<img class="img" src="public/projects.img/JapaneseGames.png" alt="昔あそび">
+					</div>
+					<div class="card scrunchie">
+						<a href="projectsDetail/scrunchie.html">［無料体験ワークショップ］<br>ちりめんものづくり体験！</a>
+						<img class="img" src="public/projects.img/scrunchie.png" alt="ちりめん">
+					</div>
+					<div class="card DJ">
+						<a href="projectsDetail/DJ.html">CLUB Rhelok</a>
+						<img class="img" src="public/projects.img/DJ.jpg" alt="DJ">
+					</div>
+					<div class="card ONED">
+						<a href="projectsDetail/ONED.html">ONED</a>
+						<img class="img" src="public/projects.img/ONED.png" alt="ONED">
+					</div>
+				</div>
+			</section>
+		</article>
+		<footer></footer>
+	</body>
+	<!-- <script src="../js/index.js"></script> -->
+	<!-- 後日実装 -->
+	<script src="js/nav.js"></script>
+</html>

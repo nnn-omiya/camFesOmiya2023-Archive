@@ -1,0 +1,375 @@
+@media screen and (max-width:600px){
+
+}
+/*タブのcss*/
+.tab-container {
+  display: flex;
+  width: 80vw;
+  margin: 0 auto;
+}
+@media screen and (max-width: 600px) {
+  .tab-container {
+    flex-direction: column;
+  }
+}
+.tab {
+  flex: 1;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  background-color: #19302A;
+  border-radius: 10px 10px 0 0;
+  text-shadow: none;
+  position: relative;
+}
+.tab::after {
+  content: '';
+  position: absolute;
+  width: 80%;
+  height: 2px;
+  background-color: #19302A;
+  transform: translateX(-50%) scale(0, 1);
+  left: 50%;
+}
+@media screen and (max-width: 600px){
+  .tab{
+    border-radius: 10px 10px ;
+    padding: 1px;
+  }
+}
+.tab:hover {
+  background-color: #e0e0e0;
+  color: #19302A;
+}
+.tab-active {
+  background-color: #e0e0e0;
+  color: #19302A;
+}
+.tab-active.tab::after {
+  transform: translateX(-50%) scale(1, 1);
+  bottom: 7px;
+}
+@media screen and (max-width:600px){
+  .tab-active.tab::after{
+    bottom: 3px;
+  }
+
+}
+.tab:hover::after {
+  transform: translateX(-50%) scale(1, 1);
+  bottom: 7px;
+  transition: .5s;
+}
+
+.tab-content {
+  display: none;
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 80vw;
+  height: 75vh;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 0 0 10px 10px;
+}
+.tab-content * {
+  text-shadow: none;
+}
+@media screen and (max-width:600px){
+  .tab-content{
+    height: 60vh;
+    border-radius: 10px;
+  }
+
+}
+.tab-content.active {
+  display: block;
+  box-sizing: border-box; /* こうしないとスマホ表示時にずれる */
+}
+.tab.active{
+  background-color: #ccc;
+}
+/*タブのcssここまで*/
+
+/*@media screen and (max-width: 600px) {
+  .クラス名 {}
+}*/
+
+/* aspect-ratio
+縦横どちらかをあらかじめ指定、その後縦横の比率を指定することでスマホ対応。　横/縦の書き方*/
+
+
+/*メインページのcssここから*/
+h4{
+  text-align: center;
+}
+
+.main_on{
+  display: flex;
+  justify-content: space-around;
+}
+@media screen and (max-width: 600px) {
+  .main_on{
+    flex-direction: column;
+  }
+}
+.main_img{
+  object-fit: cover;
+  width: 30vw;
+  height: 30vh;
+  border-radius: 10px;
+}
+@media screen and (max-width: 600px){
+  .main_img{
+    width: 70vw;
+    height: 10vh;
+  }
+}
+figcaption{
+  font-size: 20px;
+}
+@media screen and (max-width: 600px){
+  figcaption{
+    font-size: 10px;
+  }
+}
+span{
+  color:lightcoral;
+  font-size: large;
+}
+@media screen and (max-width:600px){
+  span{
+    font-size: small;
+    font-weight: normal;
+  }
+}
+
+/*モーダルウィンドウのcssここから*/
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  width: 80vw;
+  height: 80vh;
+}
+
+/* モーダルを表示 */
+.modal:target {
+  display: block;
+}
+
+.modal_img{
+  aspect-ratio: 20/11;
+  width: 70vw;
+  max-height:75vh ;
+  padding-left: 10%;
+  object-fit: cover;
+}
+.main_tab{
+  padding: 0 !important;
+}
+/*モーダルウィンドウのcssここまで*/
+.tako_title{
+  font-size: 30px;
+  text-align: center;
+  color: #356521;
+  padding: 10px;
+}
+@media screen and (max-width: 600px){
+  .tako_title{
+    font-size: 15px;
+  }
+}
+.tea_all{
+  display: flex;
+}
+@media screen and (max-width: 600px){
+  .tea_all{
+    flex-direction: column
+  }
+}
+.tea_text{
+  font-size: 20px;
+  padding: 20px;
+  padding-top: 10vh;
+}
+
+@media screen and (max-width: 600px){
+  .tea_text{
+    padding-top: none;
+    padding: 10px;
+    color: black;
+  }
+}
+.takenoko_text{
+  padding: 20px;
+  font-size: 17px;
+}
+@media screen and (max-width: 600px){
+  .takenoko_text{
+    font-size: 12px;
+    padding: 0;
+    color: black;
+  }
+}
+
+.takenoko_all{
+  display: flex;
+  padding: 20px;
+  margin-top: 50px;
+}
+@media screen and (max-width: 600px){
+  .takenoko_all{
+    flex-direction: column-reverse;
+    padding-top: 0;
+    margin-top: 0;
+  }
+}
+.tako_div{
+  display: flex;
+  padding: 20px;
+  margin-top: 10vh;
+}
+@media screen and (max-width:600px){
+  .tako_div{
+    flex-direction: column;
+    margin-top: 1vh;
+  }
+}
+.tako_text{
+  padding-left: 10%;
+}
+@media screen and (max-width:600px) {
+  .tako_text{
+    padding-left: 0;
+    font-size: 12px;
+    color: black;
+  }
+}
+@media screen and (max-width :600px) {
+  .tea_img_div{
+    display: flex;
+  }
+}
+
+.fox_all{
+  display: flex;
+  margin-top: 10vh;
+  padding: 20px;
+}
+@media screen and (max-width: 600px){
+  .fox_all{
+    flex-direction: column;
+    margin-top: 0;
+  }
+}
+.fox_text{
+  font-size: 20px;
+  padding-left: 30px;
+  padding-top: 20px;
+}
+@media screen and (max-width:600px){
+  .fox_text{
+    padding-left: 0;
+    font-size: 15px;
+    color: black;
+  }
+}
+.caffe_img{
+  width: 35vw;
+}
+@media screen and (max-width:600px){
+  .caffe_img{
+    width: 70vw;
+  }
+}
+
+
+body article > section#food > h2{
+  margin-bottom: 60px;
+}
+/*詳細ページcssここから*/
+
+#Allergie{
+  width: 85vw;
+  height: 75vh;
+  border:#ccc 2px;
+  background-color: rgba(0, 0, 0, 0.3);
+  margin: 0 auto;
+  overflow: scroll;
+}
+.about_title{
+  font-size: 30px;
+  text-align: center;
+  padding-top: 5vh;
+}
+@media screen and (max-width:600px) {
+  .about_title{
+    font-size: 20px;
+  }
+
+}
+.about_text{
+  text-align: center;
+  font-size: 20px;
+  padding-top: 4vh;
+}
+.about_div{
+  display: flex;
+  justify-content: space-around;
+}
+li{
+  font-size: 20px;
+}
+ul{
+  list-style: disc;
+  padding-top: 5vh;
+}
+.about_ul{
+  list-style: disc;
+}
+.fox_caffe_p{
+  font-size: 20px;
+  padding-top: 5vh;
+  text-align: center;
+}
+@media screen and (max-width:600px) {
+  .fox_caffe_p{
+    font-size: 15px;
+  }
+
+}
+.about_div_under{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10vh;
+}
+section{
+  position: relative;
+}
+.navi_under{
+  position: absolute;
+  top: 80%;
+  writing-mode: vertical-rl;
+}
+br{
+  margin: 0;
+  padding: 0;
+}
+span{
+  margin-bottom: 0;
+}
